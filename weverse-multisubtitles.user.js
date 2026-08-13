@@ -26,11 +26,16 @@
         style.id = "weverse-subtitle-styles";
 
         style.textContent = `
+
+            .pzp-pc .pzp-pc__subtitle-text{
+                opacity:0;
+            }
+
             #weverse-subtitle-box {
                 position: fixed;
                 left: 10px;
                 right: 10px;
-                bottom: 10px;
+                bottom: 0px;
                 height: 55svh;
                 z-index: 2147483647;
                 background: black;
@@ -43,8 +48,8 @@
                 gap: 6px;
                 font-family: sans-serif;
                 font-size: 1.6rem;
+                pointer-events:none;
             }
-
 
             #weverse-subtitle-box.weverse-fullscreen {
                 position: absolute !important;
@@ -54,6 +59,8 @@
                 bottom: 5rem;
                 display: grid !important;
                 height: fit-content;
+                background:transparent;
+                font-size:1.1rem;
             }
 
             .weverse-subtitle-line {
@@ -65,13 +72,16 @@
                 white-space: pre-line;
                 width: fit-content;
                 margin-inline: auto;
+                pointer-events:all;
             }
+                
             .weverse-subtitle-line:empty {
                 display:none;
             }
 
             .weverse-subtitle-ja {
                 color: white;
+                font-size:1.2em;
             }
 
             .weverse-subtitle-en {
