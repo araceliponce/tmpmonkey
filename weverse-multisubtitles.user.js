@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Weverse Multisubtitles (Fullscreen too)
 // @namespace    http://tampermonkey.net/
-// @version      4.0.0
+// @version      4.0.1
 // @description  Multi-language subtitles for Weverse with fullscreen support
 // @author       araceliponce
 // @match        *://weverse.io/*
@@ -74,7 +74,7 @@
                 margin-inline: auto;
                 pointer-events:all;
             }
-                
+
             .weverse-subtitle-line:empty {
                 display:none;
             }
