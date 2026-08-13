@@ -3,6 +3,7 @@
 // @namespace    https://github.com/araceliponce/tmpmonkey
 // @version      1.0.0
 // @description  Custom styles for Oboe
+// @author       araceliponce
 // @match        https://oboe.com/*
 // @grant        none
 // @updateURL    https://raw.githubusercontent.com/araceliponce/tmpmonkey/main/oboe-style-override.user.js
