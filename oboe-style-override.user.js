@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Oboe Style Override
 // @namespace    https://github.com/araceliponce/tmpmonkey
-// @version      1.0.0
+// @version      1.0.1
 // @description  Custom styles for Oboe
 // @author       araceliponce
 // @match        https://oboe.com/*
@@ -30,7 +30,8 @@
         }
 
         .text-right .font-light,
-        [aria-haspopup="dialog"].font-light {
+        [aria-haspopup="dialog"].font-light,
+        textarea.font-light{
             color: #252122;
         }
 
