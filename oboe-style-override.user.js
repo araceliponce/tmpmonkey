@@ -29,6 +29,9 @@
             color: white;
         }
 
+        /* .text-right are my messages, 
+        textarea is the main textbox,
+        [aria-haspopup="dialog"] are highlighted short texts you can tap */
         .text-right .font-light,
         [aria-haspopup="dialog"].font-light,
         textarea.font-light{
@@ -45,6 +48,13 @@
 
         .to-tan-light {
             --tw-gradient-to: 0;
+        }
+
+        /* when hovering the alternatives */
+        @media (hover: hover) and (pointer: fine) {
+          .followUpRow:hover {
+            background-color: #ab442d;
+          }
         }
     `;
 
