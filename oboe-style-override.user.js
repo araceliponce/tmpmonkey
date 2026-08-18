@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Oboe Style Override
 // @namespace    https://github.com/araceliponce/tmpmonkey
-// @version      1.0.1
+// @version      1.0.2
 // @description  Custom styles for Oboe
 // @author       araceliponce
 // @match        https://oboe.com/*
