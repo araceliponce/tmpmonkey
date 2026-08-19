@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Oboe Style Override
 // @namespace    https://github.com/araceliponce/tmpmonkey
-// @version      1.0.2
+// @version      1.0.3
 // @description  Custom styles for Oboe
 // @author       araceliponce
 // @match        https://oboe.com/*
@@ -17,7 +17,7 @@
 
     style.textContent = `
         #main-content-scroll-area,
-        #main-chapter-scroll-area {
+        #main-chapter-scroll-area,.bg-white {
             background: #252122 !important;
         }
 
