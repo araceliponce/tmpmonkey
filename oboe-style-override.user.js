@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Oboe Style Override
 // @namespace    https://github.com/araceliponce/tmpmonkey
-// @version      1.0.3
+// @version      1.1.0
 // @description  Custom styles for Oboe
 // @author       araceliponce
 // @match        https://oboe.com/*
@@ -33,8 +33,7 @@
         textarea is the main textbox,
         [aria-haspopup="dialog"] are highlighted short texts you can tap */
         .text-right .font-light,
-        [aria-haspopup="dialog"].font-light,
-        textarea.font-light{
+        [aria-haspopup="dialog"].font-light{
             color: #252122;
         }
 
